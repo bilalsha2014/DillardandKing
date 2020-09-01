@@ -652,7 +652,7 @@ h3 {
   padding: 18px;
 }
 .slider_bg_1 {
-  background-image: url(../img/banner/1.webp);
+  background-image: url(../img/banner/1.jpg);
 }
 .slider_area .single_slider {
   height: 800px;
@@ -1084,7 +1084,7 @@ h3 {
   cursor: pointer;
 }
 .footer_bg {
-  background-image: url(../img/banner/footer.webp);
+  background-image: url(../img/banner/footer.jpg);
 }
 .footer .footer_top {
   padding: 150px 150px;
@@ -4188,4 +4188,3 @@ table {
   padding-left: 12px;
   padding-right: 12px;
 }
-
