@@ -2773,6 +2773,7 @@ h6 {
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  background-clip: content-box;
 }
 .single-blog {
   overflow: hidden;
@@ -2816,7 +2817,6 @@ h6 {
 .single-blog .tag {
   text-align: left;
   display: inline-block;
-  float: left;
   font-size: 13px;
   font-weight: 300;
   margin-right: 22px;
@@ -3818,6 +3818,7 @@ h6 {
   background: -webkit-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: content-box;
 }
 .blog_part .single-home-blog .card .dot {
   position: relative;
@@ -3901,6 +3902,8 @@ h6 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: 1s;
+  animation: normal;
+  background-clip: content-box;
 }
 .blog_part .single-home-blog .card ul li {
   display: inline-block;
@@ -4045,6 +4048,9 @@ h6 {
 .washington {
   margin-top: 24px;
 }
+.Atlanta {
+  margin-top: 24px;
+}
 .footer_copy_right {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -4093,7 +4099,6 @@ section {
 #ContactUstext {
   font-size: 18px;
   color: rgb(110, 109, 109);
-  align: center;
   margin-top: 0px;
 }
 #seperatorpadding {
@@ -4187,4 +4192,24 @@ table {
 #ConsultationParaPadding {
   padding-left: 12px;
   padding-right: 12px;
+}
+#Chichago,
+#washington,
+#atlanta {
+  color: white !important;
+  text-align: center !important;
+  font-family: "Playfair Display", serif !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-size: 16px !important;
+}
+#Chichago:hover,
+#washington:hover,
+#atlanta:hover {
+  color: rgb(230, 248, 255) !important;
+  text-align: center !important;
+  font-family: "Playfair Display", serif !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-size: 16px !important;
 }
